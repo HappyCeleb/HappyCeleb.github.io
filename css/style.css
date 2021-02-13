@@ -1,0 +1,134 @@
+
+*
+{
+    box-sizing: border-box;
+}
+/* .desgn
+{
+
+	height: 500px;
+	width: 450px 450px 450px 450px;
+	background: rgba(0, 0, 0, 0.4);
+	padding: 30px 100px 260px 70px;
+	text-align: center;
+	margin: 0;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	margin-right: 3%;
+	margin-left: 3%;
+	color: white;
+	font-family: 'Century Gothic',sans-serif;
+	
+} */
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+    justify-content: flex-end;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+
+  }
+
+  
+  /* Create four equal columns that sits next to each other */
+  /* RIGHT SIDE */
+  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 10px 10px;
+  }
+  
+  .column-para {
+    color:#ffcccb;
+    text-shadow: -0.5px 0.5px 0 #000,
+                  0.5px 0.5px 0 #000,
+                  0.5px 0.5px 0 #000,
+                 -0.5px 0.5px 0 #000;
+    font-size: 20px;
+    flex: 25%;
+    /* margin-top: 100px; */ /* for centering*/
+    padding: 10px 10px;
+    align-self: flex-start;
+  }
+
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+  /* LEFT SIDE */
+  .row2 {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+    justify-content: flex-start;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+  }
+  
+    .column2 {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 10px 10px;
+  }
+
+  .column-para2 {
+    color:#ffcccb;
+    text-shadow: -0.5px 0.5px 0 #000,
+                  0.5px 0.5px 0 #000,
+                  0.5px 0.5px 0 #000,
+                 -0.5px 0.5px 0 #000;
+    font-size: 20px;
+    /* margin-top: 100px; */ /* for centering*/
+    flex: 25%;
+    padding: 10px 10px;
+    align-self: flex-start;
+  }
+  .column2 img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+
+
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+    .column2 {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+    .column2 {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+
+
+  
