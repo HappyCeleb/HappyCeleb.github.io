@@ -1,0 +1,76 @@
+
+Laughing1
+<i class="em em-laughing" aria-role="presentation" aria-label="SMILING FACE WITH OPEN MOUTH AND TIGHTLY-CLOSED EYES"></i>
+
+Laughing2
+<i class="em em-rolling_on_the_floor_laughing" aria-role="presentation" aria-label="ROLLING ON THE FLOOR LAUGHING"></i>
+
+Heart
+<i class="em em-heart" aria-role="presentation" aria-label="HEAVY BLACK HEART"></i>
+
+Kiss Emoji
+<i class="em em-kissing_heart" aria-role="presentation" aria-label="FACE THROWING A KISS"></i>
+
+
+Worry
+<i class="em em-worried" aria-role="presentation" aria-label="WORRIED FACE"></i>
+
+
+<i class="em em-partying_face" aria-role="presentation" aria-label="FACE WITH PARTY HORN AND PARTY HAT"></i>
+
+
+Please
+<i class="em em-pleading_face" aria-role="presentation" aria-label="FACE WITH PLEADING EYES"></i>
+
+<!--LEFT-->
+<div data-aos="fade-up">
+<div class="row"> 
+<div class="column-para">    
+     <p>
+    </p>
+</div>
+  <div class="column">
+    <img src="css/img/.jpg" style="width:100%;border-radius:10px">
+  </div>
+</div>
+</div>
+<br>
+
+<!-- RIGHT -->
+<div data-aos="fade-up">
+<div class="row2"> 
+<div class="column2">
+<img src="css/img/.jpg" style="width:100%;border-radius:10px">
+</div>
+<div class="column-para2">    
+    <p>
+    </p>
+    </div>
+</div>
+</div>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
